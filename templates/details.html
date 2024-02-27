@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Details Page</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background: #ffffff;
+            color: #333;
+            padding-top: 30px;
+            min-height: 70px;
+            border-bottom: #e8491d 4px solid;
+        }
+
+        header a {
+            color: #333;
+            text-decoration: none;
+            text-transform: uppercase;
+            font-size: 16px;
+        }
+
+        header ul {
+            padding: 0;
+            margin: 0;
+            list-style: none;
+            overflow: hidden;
+        }
+
+        header #branding {
+            float: left;
+        }
+
+        header #branding h1 {
+            margin: 0;
+        }
+
+        header .highlight, header a:hover {
+            color: #e8491d;
+        }
+
+        header a#login {
+            float: right;
+            display: block;
+            padding: 10px 20px 0 20px;
+            color: #333;
+            font-size: 16px;
+        }
+
+        header form {
+            float: right;
+            margin-top: 10px;
+        }
+
+        header input.search {
+            color: #666;
+            float: left;
+            border: #666 1px solid;
+            padding: 5px;
+            border-radius: 5px;
+            height: 26px;
+            margin: 0;
+            width: 190px;
+        }
+
+        header button.search {
+            float: left;
+            width: 30px;
+            height: 30px;
+            border: 0;
+            background: #e8491d;
+            text-align: center;
+            color: #fff;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        header button.search:hover {
+            background: #333;
+        }
+
+        header #register {
+            float: right;
+            display: block;
+            padding: 10px 20px 0 20px;
+            color: #333;
+            font-size: 16px;
+        }
+
+        header a.register:hover {
+            color: #e8491d;
+        }
+
+        main {
+            padding: 20px 0;
+        }
+
+        footer {
+            background: #333;
+            color: #fff;
+            padding-top: 20px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+
+        footer p {
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div id="branding">
+                <h1><span class="highlight">Your Company</span> Name</h1>
+            </div>
+            <form>
+                <input class="search" type="text" placeholder="Search...">
+                <button class="search" type="submit">Search</button>
+            </form>
+        </div>
+    </header>
+
+    <main>
+        <div class="container">
+            <section id="main">
+                <h1>Product Details</h1>
+                <article>
+                    <h2>Product Name</h2>
+                    <p>Description of the product goes here.</p>
+                    <p>Price: $XX.XX</p>
+                    <p>Availability: In Stock</p>
+                    <!-- Add more details as needed -->
+                </article>
+            </section>
+        </div>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2023 Your Company Name. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
